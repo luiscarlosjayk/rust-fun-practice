@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "easy/arrays-hashing/0001-two-sum",
+    "easy/arrays-hashing/0217-contains-duplicate",
+    "easy/arrays-hashing/0242-valid-anagram",
+    "easy/strings/0014-longest-common-prefix",
+    "easy/strings/0344-reverse-string",
+    "easy/two-pointers/0125-valid-palindrome",
+    "easy/stack/0020-valid-parentheses",
+    # NEW_PROBLEM_MARKER (new-problem.sh inserts members above this line)
+]
