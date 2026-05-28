@@ -44,7 +44,7 @@ leetcode/
 - **Package names** are the clean slug (`two-sum`); the lib target is the slug
   with hyphens replaced by underscores (`two_sum`). Slugs are unique per
   LeetCode problem, so no workspace name collisions.
-- **Edition** 2021, workspace `resolver = "2"`.
+- **Edition** 2024, workspace `resolver = "2"`.
 - **Future levels** (`medium/`, `hard/`) and topics (`linked-list/`, `trees/`,
   `dynamic-programming/`, …) follow the same `level/topic/NNNN-slug/` shape.
 

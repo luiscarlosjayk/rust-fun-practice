@@ -6,7 +6,7 @@
 
 **Architecture:** One workspace at the repo root (`leetcode/`). Problems live under `<level>/<topic>/<NNNN-slug>/`, each a crate with `src/lib.rs` (the practice stub) and `tests/tests.rs` (integration tests calling the public function). A `TEMPLATE.md` documents the per-problem README format, and `new-problem.sh` scaffolds new crates. Each problem is verified during the build by temporarily pasting the reference solution (kept in this plan as an answer key), confirming the tests pass, then restoring the `todo!()` stub so the working tree is an exercise.
 
-**Tech Stack:** Rust (edition 2021, rustc 1.94.1), Cargo workspace, std-only (no external crates), bash for the scaffold script.
+**Tech Stack:** Rust (edition 2024, rustc 1.94.1), Cargo workspace, std-only (no external crates), bash for the scaffold script.
 
 ---
 
@@ -42,7 +42,7 @@ leetcode/
   [package]
   name = "<slug>"
   version = "0.1.0"
-  edition = "2021"
+  edition = "2024"
 
   [lib]
   path = "src/lib.rs"
@@ -217,7 +217,7 @@ cat > "$TARGET/Cargo.toml" <<EOF
 [package]
 name = "$PKG"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 path = "src/lib.rs"
@@ -301,7 +301,7 @@ The reference solution is the answer key and must NOT remain in the committed `s
 [package]
 name = "two-sum"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 path = "src/lib.rs"
@@ -455,7 +455,7 @@ git commit -m "Add Two Sum (1): stub + tests"
 [package]
 name = "contains-duplicate"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 path = "src/lib.rs"
@@ -595,7 +595,7 @@ git commit -m "Add Contains Duplicate (217): stub + tests"
 [package]
 name = "valid-anagram"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 path = "src/lib.rs"
@@ -749,7 +749,7 @@ git commit -m "Add Valid Anagram (242): stub + tests"
 [package]
 name = "longest-common-prefix"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 path = "src/lib.rs"
@@ -906,7 +906,7 @@ git commit -m "Add Longest Common Prefix (14): stub + tests"
 [package]
 name = "reverse-string"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 path = "src/lib.rs"
@@ -1053,7 +1053,7 @@ git commit -m "Add Reverse String (344): stub + tests"
 [package]
 name = "valid-palindrome"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 path = "src/lib.rs"
@@ -1221,7 +1221,7 @@ git commit -m "Add Valid Palindrome (125): stub + tests"
 [package]
 name = "valid-parentheses"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 path = "src/lib.rs"

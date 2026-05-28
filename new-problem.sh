@@ -29,7 +29,7 @@ cat > "$TARGET/Cargo.toml" <<EOF
 [package]
 name = "$PKG"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 path = "src/lib.rs"
