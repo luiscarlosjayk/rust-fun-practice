@@ -15,6 +15,14 @@ SLUG="${DIRNAME#*-}"          # strip leading NNNN-
 PKG="$SLUG"
 LIB="${PKG//-/_}"             # crate name uses underscores
 DIR="$LEVEL/$TOPIC/$DIRNAME"
+
+# Rust crate identifiers cannot start with a digit. The leading NNNN- is stripped
+# above, so a slug like "3sum" would yield the invalid crate name "3sum".
+if [[ "$SLUG" =~ ^[0-9] ]]; then
+  echo "Invalid slug '$SLUG': a crate name cannot start with a digit." >&2
+  echo "Use a word-first slug, e.g. 'three-sum' instead of '3sum'." >&2
+  exit 1
+fi
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 TARGET="$ROOT/$DIR"
 
