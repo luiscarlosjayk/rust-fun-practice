@@ -2,9 +2,9 @@ use reverse_string::reverse_string;
 
 #[test]
 fn reverses_hello() {
-    let mut s = vec!['h', 'e', 'l', 'l', 'o'];
+    let mut s = vec!['h', 'e', 'l', 'l', 'o', 's'];
     reverse_string(&mut s);
-    assert_eq!(s, vec!['o', 'l', 'l', 'e', 'h']);
+    assert_eq!(s, vec!['s', 'o', 'l', 'l', 'e', 'h']);
 }
 
 #[test]
