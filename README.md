@@ -1,8 +1,8 @@
-# LeetCode in Rust
+# Rust Fun Practice
 
-Practicing LeetCode problems in Rust, level by level and topic by topic, to get
-fluent with std types (`Vec`, `HashMap`, `HashSet`, `String`/`&str`, iterators)
-and build toward Data Structures & Algorithms.
+Practicing LeetCode-style problems in Rust, level by level and topic by topic, to
+get fluent with std types (`Vec`, `HashMap`, `HashSet`, `String`/`&str`,
+iterators) and build toward Data Structures & Algorithms.
 
 ## Layout
 
