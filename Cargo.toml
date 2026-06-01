@@ -23,5 +23,10 @@ members = [
     "medium/sliding-window/0003-longest-substring-without-repeating-characters",
     "medium/binary-search/0033-search-in-rotated-sorted-array",
     "medium/two-pointers/0015-three-sum",
+    "hard/two-pointers/0042-trapping-rain-water",
+    "hard/sliding-window/0076-minimum-window-substring",
+    "hard/binary-search/0004-median-of-two-sorted-arrays",
+    "hard/linked-list/0023-merge-k-sorted-lists",
+    "hard/dynamic-programming/0072-edit-distance",
     # NEW_PROBLEM_MARKER (new-problem.sh inserts members above this line)
 ]
