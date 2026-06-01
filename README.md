@@ -57,14 +57,14 @@ only my own Rust solutions and tests.
 
 | Topic | Problem | LC # | Status |
 |---|---|---|---|
-| arrays-hashing | Two Sum | 1 | ☐ |
+| arrays-hashing | Two Sum | 1 | [x] |
 | arrays-hashing | Contains Duplicate | 217 | ☐ |
-| arrays-hashing | Valid Anagram | 242 | ☐ |
-| arrays-hashing | Remove Duplicates from Sorted Array | 26 | ☐ |
-| strings | Longest Common Prefix | 14 | ☐ |
-| strings | Reverse String | 344 | ☐ |
-| two-pointers | Valid Palindrome | 125 | ☐ |
-| stack | Valid Parentheses | 20 | ☐ |
+| arrays-hashing | Valid Anagram | 242 | [x] |
+| arrays-hashing | Remove Duplicates from Sorted Array | 26 | [x] |
+| strings | Longest Common Prefix | 14 | [x] |
+| strings | Reverse String | 344 | [x] |
+| two-pointers | Valid Palindrome | 125 | [x] |
+| stack | Valid Parentheses | 20 | [x] |
 | binary-search | Binary Search | 704 | ☐ |
 | binary-search | Search Insert Position | 35 | ☐ |
 | sliding-window | Best Time to Buy and Sell Stock | 121 | ☐ |
