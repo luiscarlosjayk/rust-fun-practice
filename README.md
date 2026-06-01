@@ -84,3 +84,13 @@ only my own Rust solutions and tests.
 | two-pointers | 3Sum | 15 | ☐ |
 | sliding-window | Longest Substring Without Repeating Characters | 3 | ☐ |
 | binary-search | Search in Rotated Sorted Array | 33 | ☐ |
+
+### Hard
+
+| Topic | Problem | LC # | Status |
+|---|---|---|---|
+| two-pointers | Trapping Rain Water | 42 | ☐ |
+| sliding-window | Minimum Window Substring | 76 | ☐ |
+| binary-search | Median of Two Sorted Arrays | 4 | ☐ |
+| linked-list | Merge k Sorted Lists | 23 | ☐ |
+| dynamic-programming | Edit Distance | 72 | ☐ |
