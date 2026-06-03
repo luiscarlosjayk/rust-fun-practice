@@ -8,7 +8,6 @@ enum Carry {
 
 pub fn plus_one(digits: Vec<i32>) -> Vec<i32> {
     use Carry::*;
-    
     let mut digits = digits;
     let mut carry = Carry::One;
     for digit in digits.iter_mut().rev() {
@@ -28,7 +27,8 @@ pub fn plus_one(digits: Vec<i32>) -> Vec<i32> {
 
     if carry == One {
         digits.push(1);
-        digits.reverse()
+        let l = digits.len();
+        digits.swap(0, l-1);
     }
 
     digits
