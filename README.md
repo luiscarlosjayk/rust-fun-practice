@@ -73,7 +73,7 @@ only my own Rust solutions and tests.
 | trees | Invert Binary Tree | 226 | ☐ |
 | trees | Maximum Depth of Binary Tree | 104 | ☐ |
 | dynamic-programming | Climbing Stairs | 70 | ☐ |
-| math | Plus One | 66 | ☐ |
+| math | Plus One | 66 | [x] |
 
 ### Medium
 
